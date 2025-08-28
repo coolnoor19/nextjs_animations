@@ -39,6 +39,12 @@ export default function BentoGlowingGrid(){
                 title="Coming soon on Aceternity UI"
                 description="I'm writing the code as I record this, no shit."
               />
+               <GridItem
+                area="md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]"
+                icon={<Search className="h-4 w-4 text-black dark:text-neutral-400" />}
+                title="Coming soon on Aceternity UI"
+                description="I'm writing the code as I record this, no shit."
+              />
             </ul>
     )
 }
@@ -79,6 +85,7 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
           </div>
         </div>
       </div>
+      
     </li>
   );
 }

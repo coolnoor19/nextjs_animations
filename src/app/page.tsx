@@ -45,6 +45,7 @@ export default function Home() {
         </div>
       </div>
     <BentoGlowingGrid/>
+    
     <ContainerScrollAnimation/>
     <CoverDemo/>
    </div>
